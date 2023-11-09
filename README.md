@@ -1,6 +1,8 @@
-## ArgoCD Deployment to AWS EKS Clusters
+## ArgoCD Deployment to AWS EKS HA Clusters
 
 This repository contains the configuration files and instructions for deploying ArgoCD to AWS EKS clusters in the dev, stage, and prod environments.
+
+
 
 ### Prerequisites
 
@@ -12,6 +14,8 @@ Before deploying ArgoCD, you must have the following:
 
 <!-- TODO: Create a shortcut to all TODOs -->
 ### Deployment Steps
+
+
 
 1. Create an EKS cluster in the desired environment (dev, stage, or prod)
 2. Configure `kubectl` to use the new cluster
