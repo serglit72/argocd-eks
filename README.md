@@ -4,7 +4,8 @@ This repository contains the configuration files and instructions for deploying 
 
 ## Deployment pattern
 
-![image](https://github.com/serglit72/argocd-eks/assets/13356713/ab1a1ee3-3aef-4799-8ed3-81fbb3cb29b7)
+![image](https://github.com/serglit72/argocd-eks/assets/13356713/0030e51f-33d8-410e-b304-8a05628bc6c6)
+
 
 ### Prerequisites
 
