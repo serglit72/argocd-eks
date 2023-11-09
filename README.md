@@ -2,6 +2,10 @@
 
 This repository contains the configuration files and instructions for deploying ArgoCD to AWS EKS clusters in the dev, stage, and prod environments.
 
+## Deployment pattern
+
+![image](https://github.com/serglit72/argocd-eks/assets/13356713/ab1a1ee3-3aef-4799-8ed3-81fbb3cb29b7)
+
 ### Prerequisites
 
 Before deploying ArgoCD, you must have the following:
