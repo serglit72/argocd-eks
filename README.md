@@ -1,11 +1,10 @@
 ## ArgoCD Deployment to AWS EKS HA Clusters
 
-This repository contains the configuration files and instructions for deploying ArgoCD to AWS EKS clusters in the dev, stage, and prod environments.
+This repository contains the configuration files and instructions for deploying ArgoCD to AWS EKS clusters in the dev / stage and prod environments.
 
 ## Deployment pattern
 
-![image](https://github.com/serglit72/argocd-eks/assets/13356713/0030e51f-33d8-410e-b304-8a05628bc6c6)
-
+![image](https://github.com/serglit72/argocd-eks/assets/13356713/1f18e2de-222b-4e28-8754-657c1caff85c)
 
 ### Prerequisites
 
@@ -27,7 +26,7 @@ Repeat tasks for PROD claster when ready:
 eksctl create cluster -f eks_cluster_prod.yaml
 ```
 
-![image](https://github.com/serglit72/argocd-eks/assets/13356713/1f18e2de-222b-4e28-8754-657c1caff85c)
+
 
 ### Deployment Steps
 
