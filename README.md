@@ -86,9 +86,4 @@ And PRIVATE KEY to ArgoCD Settings/Repository/Connect (for ALL environments will
 
 6. (Optional) Set up a domain name and SSL certificate for the ArgoCD server
 
-For detailed instructions and configuration files, see the `dev/`, `stage/`, and `prod/` directories.
-
-
-
-eksctl version
 
