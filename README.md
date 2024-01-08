@@ -24,7 +24,8 @@ eksctl create cluster -f eks_cluster.yaml
 ```
 
 
-<!-- TODO: Create a shortcut to all TODOs -->
+![image](https://github.com/serglit72/argocd-eks/assets/13356713/1f18e2de-222b-4e28-8754-657c1caff85c)
+
 ### Deployment Steps
 
 
@@ -88,4 +89,3 @@ For detailed instructions and configuration files, see the `dev/`, `stage/`, and
 
 eksctl version
 
-![image](https://github.com/serglit72/argocd-eks/assets/13356713/1f18e2de-222b-4e28-8754-657c1caff85c)
