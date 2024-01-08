@@ -17,12 +17,15 @@ Before deploying ArgoCD, you must have the following:
 - eksctl installed
 NOTE! eksctl created a kubectl config file in ~/.kube or added the new cluster's configuration within an existing config file in ~/.kube.
 
-Create a EKS using file "eks_cluster.yaml"
+Create a EKS using file "eks_cluster_dev.yaml"
 
 ```shell
-eksctl create cluster -f eks_cluster.yaml
+eksctl create cluster -f eks_cluster_dev.yaml
 ```
-
+Repeat tasks for PROD claster when ready:
+```shell
+eksctl create cluster -f eks_cluster_prod.yaml
+```
 
 ![image](https://github.com/serglit72/argocd-eks/assets/13356713/1f18e2de-222b-4e28-8754-657c1caff85c)
 
