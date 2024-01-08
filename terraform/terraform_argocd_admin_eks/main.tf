@@ -12,9 +12,8 @@ provider "kubernetes" {
   cluster_ca_certificate = base64decode(data.aws_eks_cluster.this.certificate_authority[0].data)
 }
 
-
-resource "kubernetes_manifest" "argocd_master" {
-  manifest = yamldecode(templatefile("${path.module}/master.yaml", {
+resource "kubernetes_manifest" "argocd_admin" {
+  manifest = yamldecode(templatefile("${path.module}/admin.yaml", {
     path           = var.git_source_path
     repoURL        = var.git_source_repoURL
     targetRevision = var.git_source_targetRevision

@@ -1,21 +1,20 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: master
+  name: admin
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    name: internal
+    name: in-cluster
     namespace: argocd
   source:
-    repoURL: "${repoURL}"
     path: "${path}"
+    repoURL: "${repoURL}"
     targetRevision: "${targetRevision}"
   project: default
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
-
